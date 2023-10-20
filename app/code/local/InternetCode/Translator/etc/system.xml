@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+
+    <sections>
+        <dev>
+            <groups>
+                <ic_translate>
+                    <label>Translate [InternetCode]</label>
+                    <sort_order>30</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled>
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <comment>Enabled per store view ideally. [TODO] Will automatically be disabled within 1 day if forgotten.</comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>0</sort_order>
+                        </enabled>
+                    </fields>
+                </ic_translate>
+            </groups>
+        </dev>
+    </sections>
+</config>

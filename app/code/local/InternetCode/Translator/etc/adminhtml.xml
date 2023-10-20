@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <menu>
+        <system>
+            <children>
+                <ic_translation>
+                    <title>Translation Management</title>
+                    <sort_order>93</sort_order>
+                    <children>
+                        <missing>
+                            <title>Missing Translations</title>
+                            <sort_order>0</sort_order>
+                            <action>*/ic_translate/index</action>
+                        </missing>
+                        <edit>
+                            <title>Manage Translations</title>
+                            <sort_order>0</sort_order>
+                            <action>*/ic_csv/index</action>
+                        </edit>
+                    </children>
+                </ic_translation>
+            </children>
+        </system>
+    </menu>
+</config>

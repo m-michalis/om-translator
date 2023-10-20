@@ -1,0 +1,7 @@
+<?php
+
+
+class InternetCode_Translator_Block_Adminhtml_Missing_Edit_Form extends InternetCode_Translator_Block_Adminhtml_Csv_Edit_Form
+{
+
+}

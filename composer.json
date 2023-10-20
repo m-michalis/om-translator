@@ -1,0 +1,25 @@
+{
+  "name": "m-michalis/om-translator",
+  "type": "magento-module",
+  "license": "GPL-3.0",
+  "version": "0.1.3",
+  "homepage": "https://github.com/m-michalis/om-translator",
+  "description":"The \"Translation Management\" module simplifies translation tasks in OpenMage by providing an efficient way to create and update missing and existing translations from various modules. This module offers a user-friendly grid/edit dashboard in the Admin panel, allowing you to manage translations with ease. Additionally, it can detect and capture missing translations when browsing the frontend.",
+  "keywords": [
+    "openmage",
+    "translate openmage",
+    "openmage translator",
+    "csv translation",
+    "magento"
+  ],
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"Michalis Michalis",
+      "email":"m@internetcode.gr"
+    }
+  ]
+}
