@@ -59,18 +59,18 @@ class InternetCode_Translator_Block_Adminhtml_Csv_Edit_Form extends Mage_Adminht
 
             $fieldset->addField('fallback', 'note', [
                 'label' => 'Fallback text from another module',
-                'text' => $model->getFallback() ?? '<i>no fallback text</i>',
+                'text' => '<code style="background-color: #f4f4f4; padding: 5px; display: block; margin: 10px 0;">'.($model->getFallback() ?? '<i>no fallback text</i>').'</code>',
             ]);
 
             $fieldset->addField('view_text', 'note', [
                 'label' => 'Text that needs translation',
-                'text' => $model->getText(),
+                'text' => '<code style="background-color: #f4f4f4; padding: 5px; display: block; margin: 10px 0;">'.$this->escapeHtml($model->getText()).'</code>',
             ]);
 
             $fieldset->addField('new_text', 'text', [
                 'name' => 'new_text',
                 'label' => $this->_getHelper()->__('Enter Translation'),
-                'value' => $model->getTranslation(),
+                'value' => $model->getTranslation() ?? $model->getText(),
                 'required' => true
             ]);
 
